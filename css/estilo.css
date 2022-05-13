@@ -159,9 +159,11 @@ label {
 
 input {
   padding: 5px;
-  width: 125px;
+  width: 150px;
   font-size: 00.9em;
   background-color: #fff;
+  padding: 3px;
+  border: 1.5px solid #615d5d;
 }
 
 input.submit {
@@ -169,6 +171,8 @@ input.submit {
   color: #fff;
   background-color: #b10333;
   border: 2px solid #870529;
+  margin-top: 3px;
+  cursor: pointer;
 }
 
 /*Formatando Imagens*/
@@ -197,6 +201,39 @@ h3 {
 .entrevista h3 {
   background: #de003e;
   color: #fff;
+}
+
+/*Formatando lista de notícias*/
+#lista-noticias li {
+  padding: 2px;
+  border-bottom: 1px solid #ccc;
+  height: 65px;
+}
+
+#lista-noticias li a img {
+  float: left;
+  margin: 5px;
+}
+
+#lista-noticias li a {
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+#lista-noticias li a h3 {
+  font-size: 0.9em;
+  padding: 0;
+  color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+  font-size: 0.8em;
+  color: #000;
+}
+
+#lista-noticias li:hover {
+  background: #eee;
+  cursor: pointer;
 }
 
 /* Rodape*/
