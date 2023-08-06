@@ -1,2 +1,2 @@
 # site-noticia-cidade
- Site de Notícias
+ Projeto Interface Site de Notícias.
